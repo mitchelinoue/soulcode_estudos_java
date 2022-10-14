@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="soulcode_estudos_java" />
         <module name="estudojava" />
+        <module name="soulcode_java" />
       </profile>
     </annotationProcessing>
   </component>

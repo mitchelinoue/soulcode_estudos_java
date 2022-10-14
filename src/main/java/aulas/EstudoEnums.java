@@ -1,4 +1,4 @@
-// Enums são estrutuas com classes definidas
+package aulas;// Enums são estrutuas com classes definidas
 // Dias da semana, meses do ano, turnos do dia, estações
 // níveis (junior, pleno, senior), feriados nacionais
 

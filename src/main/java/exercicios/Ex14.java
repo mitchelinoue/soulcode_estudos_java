@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+/*Escreva um programa que leia dois números e apresente a diferença do maior para o menor.*/
 public class Ex14 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);

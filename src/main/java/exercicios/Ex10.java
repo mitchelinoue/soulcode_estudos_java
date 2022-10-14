@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+/*Escrever um programa que leia dois números inteiros e mostre todos os relacionamentos de ordem existentes
+entre eles. Os relacionamentos possíveis são: Igual, Não igual, Maior, Menor, Maior ou igual, Menor ou igual.*/
 public class Ex10 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);

@@ -48,16 +48,15 @@ public class Bichinho {
 
     }
 
-    public void dormir(int horas){ //supondo que ele perde 1kg p/ hora dormindo
+    public void dormir(int horas){ //supondo que ele perde 10% do peso por hora
         if(this.estaDormindo == true){
             System.out.println(this.nome + " já está dormindo");
-        } else if( horas > this.peso){
-            System.out.println(this.nome + " não pode dormir tudo isso!");
+        } else if( this.peso < 1){
+            System.out.println(this.nome + " não pode dormir e precisa comer mais!");
         } else {
-            this.peso -= horas;
-            System.out.println(
-
-            );
+            for (int i = 0; i < horas; i++ ){
+                this.peso = this.peso * 0.9;
+            }
         }
     }
 

@@ -34,7 +34,7 @@ public class EstudoListas {
         System.out.println(numeros.get(0));
         System.out.println(numeros.get(1));
 
-        System.out.println(numeros.size()); // serve para saver o tamanho do array, como array.length
+        System.out.println(numeros.size()); // serve para saber o tamanho do array, como array.length
 
         for( int i = 0; i < numeros.size(); i++){
             System.out.println("No array numeros temos: " + numeros.get(i));

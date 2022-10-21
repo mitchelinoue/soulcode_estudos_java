@@ -32,6 +32,7 @@ public class Bichinho {
         this.nome = nome;
         this.idade = idade;
         this.peso = peso;
+        this.bucho = new ArrayList<>();
         this.estaDormindo = false;
     }
 
@@ -57,6 +58,7 @@ public class Bichinho {
             for (int i = 0; i < horas; i++ ){
                 this.peso = this.peso * 0.9;
             }
+            System.out.println(this.nome + "dormiu por " + horas + " horas e agora pesa " + this.peso);
         }
     }
 

@@ -14,6 +14,7 @@ public class BichinhoTeste {
         System.out.println(bichinho1.getPeso());
 
         bichinho1.dormir(10);
+
         System.out.println(bichinho1.getPeso());
 
 

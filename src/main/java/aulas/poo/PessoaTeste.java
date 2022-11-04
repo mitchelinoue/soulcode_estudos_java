@@ -43,6 +43,8 @@ public class PessoaTeste {
         pedro.cumprimentar(joao);
         pedro.cumprimentar(joao);
 
+        System.out.println(pedro.nome.length());
+
 
 
 
